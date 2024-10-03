@@ -1,0 +1,29 @@
+{
+  "name": "ai-quiz-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sally-Builds/ai-quiz-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sally-Builds/ai-quiz-generator/issues"
+  },
+  "homepage": "https://github.com/Sally-Builds/ai-quiz-generator#readme",
+  "type": "module",
+  "dependencies": {
+    "@langchain/core": "^0.3.6",
+    "@langchain/langgraph": "^0.2.11",
+    "@langchain/openai": "^0.3.5",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.3.2",
+    "uuid": "^10.0.0"
+  }
+}
